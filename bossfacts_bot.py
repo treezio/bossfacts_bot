@@ -11,7 +11,6 @@ bot_name = "@bossfacts_bot"	# Bot will only respond to messages containing this
 
 RESPONSES = ['Eso es copy paste', 'En un sprint está hecho, no?', 'Los de Cloud Services lo tienen ya hecho, es adaptarlo', 'Mira a ver si respira', 'Dale un ping', 'Pero se va dejando?']
 
-
 def get_url(url):
     response = requests.get(url)
     content = response.content.decode("utf8")
