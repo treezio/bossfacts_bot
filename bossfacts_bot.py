@@ -9,7 +9,7 @@ TOKEN = ""
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 bot_name = "@bossfacts_bot"	# Bot will only respond to messages containing this
 
-RESPONSES = ['Eso es fácil no?', 'Eso es copy paste', 'En un sprint está hecho, no?', 'Los de Cloud Services lo tienen ya hecho, es adaptarlo', 'Mira a ver si respira', 'Dale un ping', 'Pero se va dejando?']
+RESPONSES = ['Eso es fácil no?', 'Eso está hecho ya', 'Eso es copy paste', 'En un sprint está hecho, no?', 'Los de Cloud Services lo tienen ya hecho, es adaptarlo', 'Mira a ver si respira', 'Dale un ping', 'Pero se va dejando?']
 
 
 def get_url(url):
