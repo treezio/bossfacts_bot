@@ -96,7 +96,8 @@ def main():
                     if "message" in update and "text" in update["message"] and bot_name in update["message"]["text"]:
                         original_message = update["message"]["message_id"]
                         text = update["message"]["text"]
-                        text = random.choice(RESPONSES)
+                        #text = random.choice(RESPONSES)
+                        #TODO Pick the proper response based on user message                
                         chat = update["message"]["chat"]["id"]
                         print "text:"
                         print text
